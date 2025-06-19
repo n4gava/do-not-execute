@@ -1,15 +1,19 @@
 {
-  "name": "do-not-execute",
+  "name": "math-utils",
   "version": "1.0.0",
-  "description": "",
+  "description": "Math utilities",
   "main": "index.js",
+  "keywords": [
+    "math",
+    "utils"
+  ],
   "scripts": {
     "start": "node index.js",
     "source": "node source.js",
     "build": "node build.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^5.1.0"
   }
